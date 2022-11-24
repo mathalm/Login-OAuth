@@ -1,0 +1,10 @@
+.div-modal-sign-up{
+  height: max-content;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.textfield{
+  margin: 5px 0 !important;
+}

@@ -1,0 +1,35 @@
+.page-login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0d0d0d;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 50px;
+  width: 100vw;
+  height: 100vh;
+}
+.detail {
+  width: 80%;
+  height: 90%;
+  position: fixed;
+  bottom: 300px;
+  rotate: 120deg;
+  z-index: 1;
+}
+
+/* -----footer--- */
+.footer-login {
+  width: 100vw;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  z-index: 11;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  padding: 3px 50px;
+}
