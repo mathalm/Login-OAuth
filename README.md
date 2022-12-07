@@ -1,9 +1,9 @@
-# Login Page 
+# Login Page 🎉
 #### _This is a login page project_
 
 This is a project use JavaScript such as core langueage.
 
-## Features
+## Features 🗂️
 
 - Sign up with OAuth 2.0 Google 
 - Sign up with OAuth 2.0 Facebook
@@ -12,7 +12,7 @@ This is a project use JavaScript such as core langueage.
 - Validation fields be not null
 - Redirect when validation return true
 
-## Tech
+## Tech 💻
 
 Those are the technologies used in the project:
 
