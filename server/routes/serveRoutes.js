@@ -12,6 +12,7 @@ import { forgetPassword } from "../controller/ForgetPasswordController.js";
 router.post("/saveInfosLogin", saveInfosLoginPost);
 router.get("/verifyEmailAlreadyExist/:email", verifyEmailAlreadyExist);
 router.get("/verifyDataToLogin/:email/:password", verifyDataToLogin);
+router.get("/", () => {message: 'No data'});
 
 router.post("/forgetEmail", forgetPassword);
 

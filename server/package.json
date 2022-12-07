@@ -1,12 +1,12 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "netlify-lambda server src",
+    "build": "netlify-lambda build src"
   },
   "author": "",
   "license": "ISC",
@@ -16,9 +16,22 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "fetch": "^1.1.0",
+    "morgan": "^1.10.0",
     "node-fetch": "^3.3.0",
     "package": "^1.0.1",
     "pg": "^8.8.0",
-    "sequelize": "^6.25.3"
-  }
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.26.0",
+    "serverless-http": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathalm/Server-LoginOAuth.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/mathalm/Server-LoginOAuth/issues"
+  },
+  "homepage": "https://github.com/mathalm/Server-LoginOAuth#readme",
+  "description": ""
 }

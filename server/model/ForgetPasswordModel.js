@@ -1,11 +1,13 @@
 import Sequelize, { DataTypes } from "sequelize";
 import { v4 as uuidv4 } from "uuid";
 import bcryptjs from "bcryptjs";
+import { bancoDeDados } from "../config/connectionDataBase.js";
 
-const bancoDeDados = new Sequelize("OAuth", "postgres", "Senhaforte06.", {
-  host: "localhost",
-  dialect: "postgres",
-});
+// const bancoDeDados = new Sequelize("OAuth", "postgres", "Senhaforte06.", {
+//   host: "localhost",
+//   dialect: "postgres",
+// });
+
 export default class ForgetPasswordModel {
   constructor() {
     this.login = bancoDeDados.define("logins", {
